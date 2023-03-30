@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="45dp"
         android:layout_marginTop="30dp"
-        android:orientation="horizontal"
-        android:padding="7dp">
+        android:orientation="horizontal">
 
         <TextView
             android:id="@+id/textView8"
@@ -69,26 +65,10 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/loginbutton"
+            android:id="@+id/signupbutton1"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="66dp"
-            android:text="Login" />
+            android:text="sign up" />
 
-        <TextView
-            android:id="@+id/signup"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-
-            android:text="Do you not have an account? Sign up now! ↓" />
-
-        <Button
-            android:id="@+id/signupbutton0"
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="66dp"
-            android:text="Sign Up" />
     </LinearLayout>
-
-
-</LinearLayout>
