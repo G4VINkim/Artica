@@ -33,13 +33,12 @@
         android:layout_marginTop="30dp"
         android:orientation="horizontal">
 
+
         <ImageButton
             android:id="@+id/imageButton1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="30dp"
-            android:layout_weight="1"
-            tools:srcCompat="@tools:sample/avatars" />
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/totebag" />
 
         <ImageButton
             android:id="@+id/imageButton2"
