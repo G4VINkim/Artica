@@ -14,31 +14,31 @@ public class CanvasOption extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.canvasoption);
 
-        Button btn = findViewById(R.id.imageButton1)
-                btn.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        Intent it = new Intent(CanvasOption.this,Canvas_apron.class)
-                                startActivity(it)
-                    }
-                });
+        Button btn = findViewById(R.id.imageButton1);
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent it = new Intent(CanvasOption.this,Canvas_apron.class);
+                startActivity(it);
+            }
+        });
 
-        Button btn2 = findViewById(R.id.imageButton2)
-                btn.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        Intent it = new Intent(CanvasOption.this,Canvas_totebag.class)
-                                startActivity(it)
-                    }
-                });
+        Button btn2 = findViewById(R.id.imageButton2);
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent it = new Intent(CanvasOption.this,Canvas_totebag.class);
+                startActivity(it);
+            }
+        });
 
-        Button btn3 = findViewById(R.id.imageButton3)
-                btn.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        Intent it = new Intent(CanvasOption.this,Canvas_pencil.class)
-                                startActivity(it)
-                    }
-                });
+        Button btn3 = findViewById(R.id.imageButton3);
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent it = new Intent(CanvasOption.this,Canvas_pencil.class);
+                startActivity(it);
+            }
+        });
     }
 }

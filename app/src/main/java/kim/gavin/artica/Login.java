@@ -14,23 +14,22 @@ public class Login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.loginpage);
 
-        Button btn = findViewById(R.id.signupbutton0)
-                btn.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        Intent it = new Intent(Login.this,Signup.class)
-                                startActivity(it)
-                    }
-                });
+        Button btn = findViewById(R.id.signupbutton0);
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent it = new Intent(Login.this,Signup.class);
+                startActivity(it);
+            }
+        });
 
-        Button btn2 = findViewById(R.id.loginbutton)
-                btn.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        Intent it = new Intent(Login.this,Mainpage.class)
-                    }
-                });
-
+        Button btn2 = findViewById(R.id.loginbutton);
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent it = new Intent(Login.this,Mainpage.class);
+            }
+        });
     }
 }
 
