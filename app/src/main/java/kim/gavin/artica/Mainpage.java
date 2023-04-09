@@ -14,14 +14,16 @@ public class Mainpage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mainpage);
 
-        Button btn = findViewById(R.id.login_button);
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent it = new Intent(Mainpage.this, Page2.class);
-                startActivity(it);
-            }
-        });
+        Button btn = findViewById(R.id.aboutus_button)
+                btn.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Intent it = new Intent(Mainpage.this,Aboutus.class)
+                                startActivity(it)
+                    }
+                });
+
+
 
     }
 }
