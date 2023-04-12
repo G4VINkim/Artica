@@ -86,7 +86,7 @@
         </activity>
 
         <activity
-            android:name=".Bin"
+            android:name=".RecyclingBin"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>

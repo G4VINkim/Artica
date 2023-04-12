@@ -15,9 +15,10 @@ import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Form extends AppCompatActivity implements AdapterView.OnItemSelectedListener{
+public class Form extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
     ImageView imageView;
     Button upload_btn;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,9 +49,10 @@ public class Form extends AppCompatActivity implements AdapterView.OnItemSelecte
         spinner3.setOnItemSelectedListener(this);
 
     }
+
     ActivityResultLauncher<String> mgetContent = registerForActivityResult(
             new ActivityResultContracts.GetContent(),
-            new ActivityResultCallback<Uri>(){
+            new ActivityResultCallback<Uri>() {
                 @Override
                 public void onActivityResult(Uri result) {
                     if (result != null) {
@@ -60,6 +62,7 @@ public class Form extends AppCompatActivity implements AdapterView.OnItemSelecte
                 }
             }
     );
+
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
         switch (position) {
@@ -77,3 +80,7 @@ public class Form extends AppCompatActivity implements AdapterView.OnItemSelecte
 
     }
 }
+
+
+
+
