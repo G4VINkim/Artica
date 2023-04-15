@@ -52,7 +52,7 @@
                 android:layout_marginTop="10dp"
                 android:padding="10dp"
                 android:text="Pencil Case"
-                android:textSize="17dp" />
+                android:textSize="16dp" />
 
             <TextView
                 android:id="@+id/textView4"
@@ -62,7 +62,7 @@
                 android:layout_marginTop="5dp"
                 android:padding="10dp"
                 android:text="20000WON"
-                android:textSize="17dp" />
+                android:textSize="16dp" />
 
             <TextView
                 android:id="@+id/textView4"
@@ -72,7 +72,7 @@
                 android:layout_marginTop="5dp"
                 android:padding="10dp"
                 android:text="Option 2"
-                android:textSize="17dp" />
+                android:textSize="16dp" />
 
         </LinearLayout>
 
@@ -83,13 +83,54 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <ImageView
-            android:id="@+id/imageView22"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:layout_marginStart="30dp"
-            android:layout_marginTop="30dp"
-            app:srcCompat="@drawable/totebag" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                app:srcCompat="@drawable/totebag" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:padding="10dp"
+                android:text="Totebag" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginTop="5dp"
+                android:text="40000WON" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginTop="5dp"
+                android:textSize="16dp"
+                android:text="Option 1" />
+        </LinearLayout>
+
     </LinearLayout>
 
     <LinearLayout
@@ -105,7 +146,7 @@
             android:layout_marginStart="50dp"
             android:padding="10dp"
             android:textSize="17dp"
-            android:text="TextView" />
+            android:text="Total price : 60000WON" />
 
         <Button
             android:id="@+id/button7"
