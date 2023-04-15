@@ -1,11 +1,13 @@
 package kim.gavin.artica;
 
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Spinner;
 
@@ -14,6 +16,8 @@ import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.google.android.material.textfield.TextInputEditText;
 
 public class Form extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
     ImageView imageView;
@@ -29,24 +33,41 @@ public class Form extends AppCompatActivity implements AdapterView.OnItemSelecte
 
         Spinner spinner = (Spinner) findViewById(R.id.spinner4);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
-                R.array.spinner_array, android.R.layout.simple_spinner_dropdown_item);
+                R.array.form_options, android.R.layout.simple_spinner_dropdown_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
         spinner.setOnItemSelectedListener(this);
 
         Spinner spinner2 = (Spinner) findViewById(R.id.spinner5);
         ArrayAdapter<CharSequence> adapter2 = ArrayAdapter.createFromResource(this,
-                R.array.spinner_array, android.R.layout.simple_spinner_dropdown_item);
+                R.array.form_items, android.R.layout.simple_spinner_dropdown_item);
         adapter2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner2.setAdapter(adapter2);
         spinner2.setOnItemSelectedListener(this);
 
         Spinner spinner3 = (Spinner) findViewById(R.id.spinner6);
         ArrayAdapter<CharSequence> adapter3 = ArrayAdapter.createFromResource(this,
-                R.array.spinner_array, android.R.layout.simple_spinner_dropdown_item);
+                R.array.form_location, android.R.layout.simple_spinner_dropdown_item);
         adapter3.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner3.setAdapter(adapter3);
         spinner3.setOnItemSelectedListener(this);
+
+        Button submit_btn = findViewById(R.id.submitbtn);
+        submit_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                TextInputEditText name = findViewById(R.id.name);
+                EditText email_text = findViewById(R.id.editTextTextEmailAddress2);
+
+                Intent email = new Intent(Intent.ACTION_SEND);
+                email.setType("plain/text");
+                String[] address = {"artica_admin@gmail.com"};
+                email.putExtra(Intent.EXTRA_EMAIL, address);
+                email.putExtra(Intent.EXTRA_SUBJECT, "new form");
+                email.putExtra(Intent.EXTRA_TEXT, String.valueOf(name.getText()) +"\n" + email_text.getText() +"\n" + spinner.getSelectedItem().toString()+"\n" + spinner2.getSelectedItem().toString() +"\n" + spinner3.getSelectedItem().toString());
+                startActivity(email);
+            }
+        });
 
     }
 

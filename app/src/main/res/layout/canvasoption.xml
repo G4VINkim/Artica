@@ -110,9 +110,9 @@
             android:layout_width="200dp"
             android:layout_height="200dp"
             android:layout_marginStart="10dp"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="15dp"
             android:scaleType="fitCenter"
-            tools:srcCompat="@drawable/pencilcase2" />
+            app:srcCompat="@drawable/pencilcase2" />
 
     </LinearLayout>
 

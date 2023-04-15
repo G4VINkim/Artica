@@ -1,14 +1,26 @@
 <resources>
     <string name="app_name">Artica</string>
     <string-array name="spinner_array">
-        <item>type1</item>
-        <item>type2</item>
-        <item>type3</item>
+        <item>option1</item>
+        <item>option2</item>
+        <item>option3</item>
     </string-array>
 
-    <string-array name="spinner_array2">
+    <string-array name="form_options">
         <item>type4</item>
         <item>type5</item>
         <item>type6</item>
+    </string-array>
+
+    <string-array name="form_items">
+        <item>type7</item>
+        <item>type8</item>
+        <item>type9</item>
+    </string-array>
+
+    <string-array name="form_location">
+        <item>type10</item>
+        <item>type11</item>
+        <item>type12</item>
     </string-array>
 </resources>

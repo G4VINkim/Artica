@@ -20,18 +20,6 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:orientation="horizontal">
-
-        <Spinner
-            android:id="@+id/spinner7"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
         android:orientation="horizontal">
@@ -83,14 +71,14 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/textView25"
+            android:id="@+id/textView34"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20dp"
             android:text="Oil paint:" />
 
         <TextView
-            android:id="@+id/textView26"
+            android:id="@+id/textView27"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20dp"
@@ -106,14 +94,14 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/textView25"
+            android:id="@+id/textView28"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20dp"
             android:text="Color Pencil:" />
 
         <TextView
-            android:id="@+id/textView26"
+            android:id="@+id/textView29"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
@@ -129,14 +117,14 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/textView25"
+            android:id="@+id/textView30"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20dp"
             android:text="Pencil:" />
 
         <TextView
-            android:id="@+id/textView26"
+            android:id="@+id/textView31"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20dp"
@@ -152,14 +140,14 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/textView25"
+            android:id="@+id/textView32"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20dp"
             android:text="Oil Pastel:" />
 
         <TextView
-            android:id="@+id/textView26"
+            android:id="@+id/textView33"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"

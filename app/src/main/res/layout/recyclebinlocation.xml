@@ -27,7 +27,7 @@
         <ImageView
             android:id="@+id/imageView28"
             android:layout_width="350dp"
-            android:layout_height="400dp"
+            android:layout_height="300dp"
             app:srcCompat="@drawable/bin1" />
 
     </LinearLayout>

@@ -22,6 +22,7 @@ public class Checkout extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(), "Order Submitted!", Toast.LENGTH_SHORT).show();
                 Intent it = new Intent(Checkout.this, CanvasOption.class);
                 startActivity(it);
+                finish();
             }
         });
     }

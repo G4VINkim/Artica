@@ -7,6 +7,7 @@ import android.widget.Adapter;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.Toast;
 
@@ -14,10 +15,13 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Canvas_apron extends AppCompatActivity implements AdapterView.OnItemSelectedListener{
+    ImageView imageView;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.canvas_apron);
+
+        imageView = findViewById(R.id.apron_img);
 
         Button btn = findViewById(R.id.button6);
         btn.setOnClickListener(new View.OnClickListener() {
@@ -39,11 +43,14 @@ public class Canvas_apron extends AppCompatActivity implements AdapterView.OnIte
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
         switch (position) {
+            case 0:
+                imageView.setImageResource(R.drawable.apron_option1);
+                break;
             case 1:
+                imageView.setImageResource(R.drawable.apron_option2);
                 break;
             case 2:
-                break;
-            case 3:
+                imageView.setImageResource(R.drawable.apron_option3);
                 break;
         }
     }

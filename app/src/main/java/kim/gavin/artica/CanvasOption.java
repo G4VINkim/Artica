@@ -46,8 +46,9 @@ public class CanvasOption extends AppCompatActivity {
         btn4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent it = new Intent(CanvasOption.this,Cart.class);
+                Intent it = new Intent(CanvasOption.this, Cart.class);
                 startActivity(it);
+                finish();
             }
         });
     }

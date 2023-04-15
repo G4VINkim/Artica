@@ -41,11 +41,11 @@ public class Mainpage extends AppCompatActivity {
             }
         });
 
-        Button btn4 = findViewById(R.id.form_button);
+        Button btn4 = findViewById(R.id.stock_button);
         btn4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent it = new Intent(Mainpage.this,Form.class);
+                Intent it = new Intent(Mainpage.this, Stock.class);
                 startActivity(it);
             }
         });

@@ -20,6 +20,7 @@ public class Cart extends AppCompatActivity {
             public void onClick(View view) {
                 Intent it = new Intent(Cart.this,Checkout.class);
                 startActivity(it);
+                finish();
             }
         });
     }

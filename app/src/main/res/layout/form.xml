@@ -40,7 +40,8 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="240dp"
                 android:layout_height="wrap_content"
-                android:hint="Type Here" />
+                android:hint="Type Here"
+                android:id="@+id/name"/>
         </com.google.android.material.textfield.TextInputLayout>
     </LinearLayout>
 

@@ -48,7 +48,7 @@
             android:id="@+id/textView27"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:text="RECYCLE"
+            android:text="RECYCLE"/>
 
         <ImageView
             android:id="@+id/imageView17"
@@ -73,7 +73,7 @@
             android:id="@+id/textView28"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="CREATE"
+            android:text="CREATE"/>
     </LinearLayout>
 
     <LinearLayout
@@ -105,11 +105,11 @@
             android:text="bin" />
 
         <Button
-            android:id="@+id/form_button"
+            android:id="@+id/stock_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="form" />
+            android:text="stock" />
 
     </LinearLayout>
 
