@@ -21,69 +21,62 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:orientation="horizontal">
 
         <ImageView
-            android:id="@+id/imageView14"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            tools:srcCompat="@tools:sample/avatars" />
-
-        <TextView
-            android:id="@+id/textView22"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="TextView" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:id="@+id/imageView15"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            tools:srcCompat="@tools:sample/avatars" />
+            android:id="@+id/imageView28"
+            android:layout_width="350dp"
+            android:layout_height="400dp"
+            app:srcCompat="@drawable/bin1" />
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_gravity="center"
         android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/aboutus_button1"
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="about us" />
+            android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/shop_button1"
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="215dp"
+                android:layout_height="230dp"
+                android:layout_marginStart="10dp"
+                android:padding="13dp"
+                android:textSize="16dp"
+                android:text="This is Artica's recycling bin. It is located in school campuses and we are planning to expand the locations. Customers can rent or donate art supplies by scanning the QR code that is on the bin or through our mobile application. " />
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="shop" />
+            android:orientation="vertical">
 
-        <Button
-            android:id="@+id/main_button1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="main" />
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="190dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:gravity="center_vertical"
+                android:textSize="15dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/green"
+                android:text="Do you want to rent or donate art supplies? Click this button for the recycling bin form!" />
 
-        <Button
-            android:id="@+id/form_button1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="form" />
-
+            <Button
+                android:id="@+id/formbtn"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Form" />
+        </LinearLayout>
     </LinearLayout>
 
 </LinearLayout>
