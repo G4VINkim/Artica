@@ -19,15 +19,8 @@ public class Checkout extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "Purchase Conpleted!", Toast.LENGTH_SHORT).show();
-            }
-        });
-
-        Button btn2 = findViewById(R.id.button8);
-        btn2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent it = new Intent(Checkout.this,Purchase.class);
+                Toast.makeText(getApplicationContext(), "Purchase Completed!", Toast.LENGTH_SHORT).show();
+                Intent it = new Intent(Checkout.this, CanvasOption.class);
                 startActivity(it);
             }
         });

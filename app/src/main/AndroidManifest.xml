@@ -108,6 +108,22 @@
                 <action android:name="android.intent.action.VIEW"/>
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".Checkout"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Stock"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

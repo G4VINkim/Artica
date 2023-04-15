@@ -12,15 +12,15 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:id="@+id/imageView5"
-            android:layout_width="100dp"
-            android:layout_height="72dp"
-            android:layout_marginStart="157dp"
-            app:srcCompat="@android:drawable/btn_star_big_on" />
+            android:id="@+id/imageView10"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="108dp"
+            app:srcCompat="@drawable/logo1" />
 
         <Button
-            android:id="@+id/button2"
-            android:layout_marginStart="85dp"
+            android:id="@+id/cart_btn"
+            android:layout_marginStart="35dp"
             android:layout_width="65dp"
             android:layout_height="wrap_content"
             android:textSize="10dp"
@@ -31,22 +31,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
+        android:layout_gravity="center"
         android:orientation="horizontal">
 
 
         <ImageButton
-            android:id="@+id/imageButton1"
+            android:id="@+id/apron_btn"
             android:layout_width="200dp"
             android:layout_height="200dp"
-            app:srcCompat="@drawable/totebag" />
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/apron" />
 
         <ImageButton
-            android:id="@+id/imageButton2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="50dp"
-            android:layout_weight="1"
-            tools:srcCompat="@tools:sample/avatars" />
+            android:id="@+id/tote_btn"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/totebag" />
+
 
     </LinearLayout>
 
@@ -64,9 +66,8 @@
                 android:id="@+id/textView14"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="60dp"
+                android:layout_marginStart="62dp"
                 android:padding="10dp"
-                android:layout_weight="1"
                 android:text="30000WON" />
 
             <TextView
@@ -74,8 +75,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:layout_marginStart="110dp"
-                android:layout_weight="1"
+                android:layout_marginStart="112dp"
                 android:text="40000WON" />
         </LinearLayout>
 
@@ -88,16 +88,14 @@
                 android:id="@+id/textView11"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="93dp"
-                android:layout_weight="1"
+                android:layout_marginStart="90dp"
                 android:text="Apron" />
 
             <TextView
                 android:id="@+id/textView12"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="151dp"
-                android:layout_weight="1"
+                android:layout_marginStart="155dp"
                 android:text="Tote Bag" />
         </LinearLayout>
     </LinearLayout>
@@ -108,13 +106,13 @@
         android:orientation="horizontal">
 
         <ImageButton
-            android:id="@+id/imageButton3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="30dp"
+            android:id="@+id/pencil_btn"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
-            android:layout_weight="1"
-            tools:srcCompat="@tools:sample/avatars" />
+            android:scaleType="fitCenter"
+            tools:srcCompat="@drawable/pencilcase2" />
 
     </LinearLayout>
 
@@ -128,14 +126,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp"
-            android:layout_marginStart="60dp"
+            android:layout_marginStart="64dp"
             android:text="20000WON" />
 
         <TextView
             android:id="@+id/textView16"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="67dp"
+            android:layout_marginStart="73dp"
             android:text="Pencil Case" />
 
     </LinearLayout>

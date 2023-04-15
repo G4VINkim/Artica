@@ -27,7 +27,7 @@
             android:id="@+id/imageView14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart=""
+            android:layout_marginStart="20dp"
             tools:srcCompat="@tools:sample/avatars" />
 
         <TextView

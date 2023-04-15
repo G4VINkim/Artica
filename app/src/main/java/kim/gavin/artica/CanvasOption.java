@@ -15,7 +15,7 @@ public class CanvasOption extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.canvasoption);
 
-        ImageButton btn = findViewById(R.id.imageButton1);
+        ImageButton btn = findViewById(R.id.apron_btn);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -24,7 +24,7 @@ public class CanvasOption extends AppCompatActivity {
             }
         });
 
-        ImageButton btn2 = findViewById(R.id.imageButton2);
+        ImageButton btn2 = findViewById(R.id.tote_btn);
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -33,7 +33,7 @@ public class CanvasOption extends AppCompatActivity {
             }
         });
 
-        ImageButton btn3 = findViewById(R.id.imageButton3);
+        ImageButton btn3 = findViewById(R.id.pencil_btn);
         btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -42,7 +42,7 @@ public class CanvasOption extends AppCompatActivity {
             }
         });
 
-        Button btn4 = findViewById(R.id.button2);
+        Button btn4 = findViewById(R.id.cart_btn);
         btn4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

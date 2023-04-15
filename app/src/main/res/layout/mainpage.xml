@@ -28,7 +28,7 @@
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="200dp"
-            android:layout_height="200dp"
+            android:layout_height="180dp"
             app:srcCompat="@drawable/nationalg" />
 
         <TextView
@@ -53,7 +53,7 @@
         <ImageView
             android:id="@+id/imageView17"
             android:layout_width="150dp"
-            android:layout_height="200dp"
+            android:layout_height="180dp"
             app:srcCompat="@drawable/art" />
     </LinearLayout>
 
@@ -66,7 +66,7 @@
         <ImageView
             android:id="@+id/imageView18"
             android:layout_width="200dp"
-            android:layout_height="200dp"
+            android:layout_height="180dp"
             app:srcCompat="@drawable/supply" />
 
         <TextView
