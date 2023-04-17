@@ -7,20 +7,19 @@
     </string-array>
 
     <string-array name="form_options">
-        <item>type4</item>
-        <item>type5</item>
-        <item>type6</item>
+        <item>Donate</item>
+        <item>Rent</item>
     </string-array>
 
     <string-array name="form_items">
-        <item>type7</item>
-        <item>type8</item>
-        <item>type9</item>
+        <item>Apron</item>
+        <item>Totebag</item>
+        <item>PencilCase</item>
     </string-array>
 
     <string-array name="form_location">
-        <item>type10</item>
-        <item>type11</item>
-        <item>type12</item>
+        <item>CheongdamElementry</item>
+        <item>EwhaUniv</item>
+        <item>CheongdamHigh</item>
     </string-array>
 </resources>
