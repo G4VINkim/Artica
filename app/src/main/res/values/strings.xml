@@ -22,4 +22,10 @@
         <item>EwhaUniv</item>
         <item>CheongdamHigh</item>
     </string-array>
+
+    <string-array name="location">
+        <item>CheongdamElementry</item>
+        <item>EwhaUniv</item>
+        <item>CheongdamHigh</item>
+    </string-array>
 </resources>
