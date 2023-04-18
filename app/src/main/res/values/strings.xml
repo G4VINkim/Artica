@@ -12,9 +12,10 @@
     </string-array>
 
     <string-array name="form_items">
-        <item>Apron</item>
-        <item>Totebag</item>
-        <item>PencilCase</item>
+        <item>Acrylic Paint</item>
+        <item>Oil Paint</item>
+        <item>Color Pencils</item>
+        <item>Paint Brushes</item>
     </string-array>
 
     <string-array name="form_location">
